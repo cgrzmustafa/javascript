@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Front-End 101</title>
 
-    <style>
+    <!-- <style>
       .text-primary {
         color: blue;
       }
       .text-danger {
         color: red;
       }
-    </style>
+    </style> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
+    <!-- 29. ders
+    <div id="alert"></div> -->
     <h1 id="greeting">Front-End 101</h1>
 
     <!-- 10-dom-icerisinden-oge-secimi işlemleri:
@@ -36,10 +44,63 @@
     <!-- 15 - 16 - 17 - 18 Kosullarla Çalışmak 
     <h2 id="info"></h2> -->
 
-    <!-- 23 - js bolum sonu egzersizi -->
+    <!-- 23 - 26 js bolum sonu egzersizi 
     <h3 id="counter">100</h3>
     <button id="increase">Arttir</button>
-    <button id="decrease">Azalt</button>
+    <button id="decrease">Azalt</button> -->
+
+    <!-- 27 - 28 
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+          <form id="userForm">
+            <input type="number" name="score" id="score" />
+            <button type="reset" class="btn btn-danger">Sifirla</button>
+            <button type="submit" class="btn btn-success">Gonder</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!-- 29 - bolum sonu egzersizi 
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+          <form id="userForm">
+            <div class="mb-3">
+              <label class="form-label" for="username">Kullanici Adi</label>
+              <input
+                class="form-control"
+                type="text"
+                name="username"
+                id="username"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="score">Not Bilgisi</label>
+              <input
+                class="form-control"
+                type="number"
+                name="score"
+                id="score"
+              />
+            </div>
+            <div class="mb-3">
+              <button type="reset" class="btn btn-danger">Sifirla</button>
+              <button type="submit" class="btn btn-success">Gonder</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-8 offset-sm-2 mt-4">
+          <ul class="list-group" id="userList"></ul>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- 30 
+    <h2 id="info"></h2> 
+    -->
 
     <!-- 
       Not:
@@ -47,6 +108,12 @@
       Dosya üzerinde çalışmadan önce lütfen satırında olup olmadığını kontrol edin.
     
     -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- <script src="js/01-hello-world.js"></script> -->
     <!-- <script src="js/02-degisken-tanimlama.js"></script> -->
@@ -70,6 +137,14 @@
     <!-- <script src="js/20-fonksiyona-parametre-atamak-ve-geridonus-almak.js"></script> -->
     <!-- <script src="js/21-arrow-function-kullanimi.js"></script> -->
     <!-- <script src="js/22-dom-etkinlikleriyle-calismak.js"></script> -->
-    <script src="js/23-functions-bolum-sonu-egzersizi.js"></script>
+    <!-- <script src="js/23-functions-bolum-sonu-egzersizi.js"></script> -->
+    <!-- <script src="js/24-Localstorage.js"></script> -->
+    <!-- <script src="js/25-localstorage-içerisinde-farkli-turden-verilerin-saklanmasi.js"></script> -->
+    <!-- <script src="js/26-localstorage-bolum-sonu-egzersizi.js"></script> -->
+    <!-- <script src="js/27-form-submit-yonetimi.js"></script> -->
+    <!-- <script src="js/28-input-icerisindeki-veriyi-almak.js"></script> -->
+    <!-- <script src="js/29-formlarla-calismak-bolum-sonu-egzersizi.js"></script> -->
+    <!-- <script src="js/30-dizi-olusturmak-ve-dizi-icindeki-ilk-son-elemana-ulasmak.js"></script> -->
+    <script src="js/31-array-yapisina-oge-eklemek-ve-cikarmak.js"></script>
   </body>
 </html>
